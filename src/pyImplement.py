@@ -19,6 +19,13 @@ class fsm(object):
               'Unsafe_Final',
               'Safe_Final']
 
+    transitions = [
+        {'trigger': '1', 'source': 'Starting_Point', 'dest': 'Counter_Checker'},
+        {'trigger': '14', 'Counter_Checker': 'liquid', 'dest': 'Unsafe_Final'},
+        {'trigger': '2', 'source': 'Starting_Point', 'dest': 'Security_Level'},
+        {'trigger': '3', 'source': 'Security_Level', 'dest': 'Final_Safe'}
+    ]
+
 
 ###===========================================================
 

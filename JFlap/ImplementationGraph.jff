@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 7.1.--><structure>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Nwadiani, Kpamiose. A
+18131506--><!--Topic: Effectively Preventing and Mitigating of Social Engineering Phishing Based
+attacks on Social Media Platforms using a finite state machine --><structure>
 	<type>fa</type>
 	<automaton>
 		<!--The list of states.-->
